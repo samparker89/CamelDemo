@@ -1,0 +1,8 @@
+_Store
+.vagrant/
+.buildpath
+.project
+.idea
+target
+*.iml
+activemq-data
