@@ -1,4 +1,4 @@
-package com.camel.RegistryAndBeans;
+package com.camel.registryandbeans;
 
 import junit.framework.TestCase;
 import org.apache.camel.CamelContext;
@@ -37,7 +37,7 @@ public class SimpleRegistryTest extends TestCase{
                         .process(exchange -> {
                             log.info("Before " + exchange.getIn().getBody(String.class));
                         })
-                        //Using the bean we pass in the value from the echange and Camel should do the conversion for us.
+                        //Using the bean we pass in the value from the exchange and Camel should do the conversion for us.
                         //The beans method is then invoked and the returned value is added to the camel exchange automatically.
                         //All below lines do the same. This is because HelloBean only has one method.
                         .bean("helloBean", "hello") // This would also allow us to skip the method lookup in the registry

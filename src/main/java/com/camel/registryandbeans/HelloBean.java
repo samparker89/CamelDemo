@@ -1,4 +1,4 @@
-package com.camel.RegistryAndBeans;
+package com.camel.registryandbeans;
 
 import com.camel.typeconversion.ConvertedObject;
 import org.apache.camel.Body;

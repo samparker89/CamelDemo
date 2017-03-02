@@ -1,4 +1,4 @@
-package com.camel.dataMarshalling;
+package com.camel.datamarshalling;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.camel.CamelContext;

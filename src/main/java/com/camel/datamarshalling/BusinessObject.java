@@ -1,4 +1,4 @@
-package com.camel.dataMarshalling;
+package com.camel.datamarshalling;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
